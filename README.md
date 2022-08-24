@@ -35,7 +35,9 @@ Connect your CLJS REPL client to the nrepl port `shadow-cljs` listens to. For in
 Connect to a running REPL in the current project
 ```
 
-and then you select `shadow-cljs`
+then you select `shadow-cljs`
+
+afterwards you will be prompted to connect to `:app`
 
 Now, you can evaluate CLJS code in the REPL. 
 
