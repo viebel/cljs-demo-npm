@@ -1,6 +1,20 @@
 # Screenshot demo
 
 
+# Setup 
+
+Ensure [shadow-cljs](https://shadow-cljs.github.io/docs/UsersGuide.html) is installed.
+
+```
+npm install --global shadow-cljs
+```
+
+Then install the node modules with:
+
+```
+npm install
+```
+
 # Run locally with REPL
 
 On one terminal, let shadow watch the build with:
