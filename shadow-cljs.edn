@@ -7,5 +7,5 @@
  :builds
  {:app {:target :node-script
         :compiler-options {:warnings-as-errors false}
-        :main screenshot-demo.core/main
+        :main cljs-demo.core/main
         :output-to "out/app/script.js"}}}

@@ -6,6 +6,6 @@
     "shadow-cljs": "2.19.6"
   },
   "dependencies": {
-    "puppeteer": "^15.5.0"
+    "color": "^4.2.3"
   }
 }
