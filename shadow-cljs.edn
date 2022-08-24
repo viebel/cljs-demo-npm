@@ -8,4 +8,8 @@
  {:app {:target :node-script
         :compiler-options {:warnings-as-errors false}
         :main cljs-demo.core/main
-        :output-to "out/app/script.js"}}}
+        :output-to "out/app/script.js"}
+  :prod {:target :node-script
+        :compiler-options {:warnings-as-errors false}
+        :main cljs-demo.core/main
+        :output-to "out/prod/script.js"}}}

@@ -44,11 +44,11 @@ Now, you can evaluate CLJS code in the REPL.
 Ask shadow to compile with:
 
 ```
-shadow-cljs compile app
+shadow-cljs release prod
 ```
 
 Run the app with `node`:
 
 ```
-node out/app/script.js
+node out/prod/script.js
 ```

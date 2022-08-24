@@ -11,7 +11,9 @@
 (defn main []
   (println "Cljs is awesome!" (str (my-color))))
 
+
 (comment
+  (js/console.log (clj->js {:a 1}))
   (-> (color "#7743CE")
       (.alpha 0.5)
       (.lighten 0.5)
